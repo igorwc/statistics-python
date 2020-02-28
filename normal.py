@@ -15,3 +15,6 @@ norm.cdf(6, 8, 2) + norm.sf(10, 8, 2)
 # Qual a probabilidade de tirar um objeto que o peso é menor que 10 e maior
 # que 8 quilos?
 norm.cdf(10, 8, 2) - norm.cdf(8, 8, 2)
+
+
+norm.cdf(0.54, 0, 1)-0.5  # calculo valor score Z tal que Z ~N(0,1)
